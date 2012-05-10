@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 
 # weave can be used if chosen in the "steps" method. The "raster" method uses weave and go throughs the entire lattice site by site without making random selections of spins
 # in the C code the variable L1 is needed to avoid problems with negative numbers and the modulo operator; numpy avoids this because a[-1] returns the last element of array a
